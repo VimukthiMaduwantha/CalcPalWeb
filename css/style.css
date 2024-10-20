@@ -236,7 +236,7 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/backgroun_image3.png);
-    height: auto;
+    /* height: auto; */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -251,8 +251,9 @@ button {
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url(../images/toogle-icon.png);
-    width: 50px;
+    background-image: url(../images/menuu.png);
+    /* width: 0px; */
+    /* height: 40px; */
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -349,9 +350,8 @@ button {
     font-size: 30px;
     color: #1d1c1c;
     font-weight: bold;
-    padding-top: 60px;
-    padding-bottom: 40px;
     text-transform: uppercase;
+    /* background-color: red; */
 }
 
 .about_text {
@@ -1031,7 +1031,7 @@ select.custom-select::placeholder {
     position: absolute;
     margin-top: -60px;
     z-index: 0;
-    padding-top: 150px;
+    /* padding-top: 50px; */
 }
 
 .input-group {
@@ -1139,7 +1139,7 @@ select.custom-select::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
-    margin-top: 55px;
+    /* margin-top: 55px; */
     text-align: center;
 }
 
@@ -1161,7 +1161,7 @@ select.custom-select::placeholder {
     color: #ffffff;
 }
 
-.copyright_text::after {
+/* .copyright_text::after {
     content: '';
     background-color: #f9f9fb;
     position: absolute;
@@ -1175,7 +1175,7 @@ select.custom-select::placeholder {
     height: 1px;
     left: 0;
     border-radius: 100px;
-}
+} */
 
 .footer_main {
     width: 100%;
@@ -1194,4 +1194,22 @@ select.custom-select::placeholder {
 
 .client_main {
     padding-bottom: 0px;
+}
+
+/* customized scroll bar */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: o.5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4DBEE9;
 }

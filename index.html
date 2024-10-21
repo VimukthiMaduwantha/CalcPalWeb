@@ -45,29 +45,33 @@
             aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
-         <div class="collapse navbar-collapse" id="navbarsExample01">
+         <div class="collapse navbar-collapse" id="navbarsExample01"
+            style="background-color: rgba(6, 52, 76, 0.5); border-radius: 10px; margin-top: 5px;">
             <ul class=" navbar-nav mr-auto">
-               <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="presentation.html">Presentation</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="documents.html">Documents</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="milestones.html">Milestones</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="domain.html">Domain</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
-               </li>
+               <center>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="presentation.html">Presentation</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="documents.html">Documents</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="milestones.html">Milestones</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="domain.html">Domain</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+               </center>
+
             </ul>
          </div>
       </nav>
@@ -165,14 +169,14 @@
                      </div>
                   </div>
                   <div class="item">
-                     <img src="images/slider3.jpg" style="width: 100%;aspect-ratio: 3/2; object-fit: contain;">
+                     <img src="images/lan.jpg" style="width: 100%;aspect-ratio: 3/2; object-fit: contain;">
                      <div style="background-color: black;width: 100%;">
                         <p style="color: white;font-family: 'Montserrat', sans-serif;">Multi Language support (Sinhala,
                            English and Tamil)</p>
                      </div>
                   </div>
                   <div class="item">
-                     <img src="images/slider3.jpg" style="width: 100%;aspect-ratio: 3/2; object-fit: contain;">
+                     <img src="images/math.png" style="width: 100%;aspect-ratio: 3/2; object-fit: contain;">
                      <div style="background-color: black;width: 100%;">
                         <p style="color: white;font-family: 'Montserrat', sans-serif;">Interactive level wise remedial
                            activities in all areas of Math</p>
@@ -187,7 +191,7 @@
    <!-- game section end -->
 
    <!-- casino section start -->
-   <div class="casino_section layout_padding" style="padding-bottom: 40px;">
+   <div class="casino_section " style="padding-bottom: 40px;">
       <div class="container">
          <h1 class="casino_taital"><img src="images/mobileIcon.png" style="height: 60px; object-fit: contain;">
             <span style="font-size: 30px;"> <span>OUR AUDIENCE AND PRICING PLANS</span>
@@ -197,7 +201,7 @@
             accessible and affordable for all.</p>
          <div class="casino_section_2 layout_padding">
             <div class="row">
-               <div class="col-sm-4">
+               <div class="col-sm-4" style="margin-bottom: 10px;">
                   <div class="box_main">
                      <h4 class="basic_text">Insitution Plan</h4>
                      <h1 class="date_text"><span class="font_size_20">$</span><span class="font_size_40">40</span>
@@ -205,7 +209,7 @@
                      <p class="lorem_text">For both public and Internation school students.</p>
                   </div>
                </div>
-               <div class="col-sm-4">
+               <div class="col-sm-4" style="margin-bottom: 10px;">
                   <div class="box_main">
                      <h4 class="basic_text">Personal Plan</h4>
                      <h1 class="date_text"><span class="font_size_20">$</span><span class="font_size_40">55</span>
@@ -213,7 +217,7 @@
                      <p class="lorem_text">For Personal use.</p>
                   </div>
                </div>
-               <div class="col-sm-4">
+               <div class="col-sm-4" style="margin-bottom: 10px;">
                   <div class="box_main">
                      <h4 class="basic_text">Special Plan</h4>
                      <h1 class="date_text"><span class="font_size_20">$</span><span class="font_size_40">0</span>
@@ -227,56 +231,46 @@
    </div>
    <!-- casino section end -->
 
-   <div class="play_section layout_padding">
+   <div class="play_section layout_padding" style="margin-top: 49px;">
       <div class="container">
          <h1 class="play_taital"><img src="images/mobileIcon.png" style="height: 60px; object-fit: contain;">
             <span style="font-size: 30px;"> <span>Success Stores in the classroom</span>
          </h1>
-         <p class="play_text">Add the video here</p>
-         <div class="game_section_2 layout_padding">
-            </div>
+         <div class="game_section_2 layout_padding" style="display: flex;justify-content: center;align-items: center;">
+            <!-- Video Player -->
+            <video id="classroomVideo" width="300px" controls controlsList="nodownload noremoteplayback nofullscreen">
+               <source src="class.mp4" type="video/mp4">
+               Your browser does not support the video tag.
+            </video>
          </div>
       </div>
    </div>
-   <!-- client section start -->
-   <div class="client_section layout_padding">
-      <div id="main_slider" class="carousel slide" data-ride="carousel">
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <div class="container">
-                  <h1 class="casino_taital"><img src="images/mobileIcon.png" style="height: 60px; object-fit: contain;">
-                     <span style="font-size: 30px;"> <span>Feedback from a teacher</span>
-                  </h1>
-                  <p clas="about_text">Add video here</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- client section end -->
 
-   <!-- contact section start -->
-   <div class="contact_section layout_padding">
-      
-         <div class="contact_section_2">
-            <div class="row">
-               <div class="col-md-12">
-                  
-               </div>
-            </div>
+   <div class="play_section layout_padding" style="margin-top: 50px;">
+      <div class="container">
+         <h1 class="play_taital"><img src="images/mobileIcon.png" style="height: 60px; object-fit: contain;">
+            <span style="font-size: 30px;"> <span>Feedback from a teacher</span>
+         </h1>
+         <div class="game_section_2 " style="display: flex;justify-content: center;align-items: center;">
+            <!-- Video Player -->
+            <video id="classroomVideo" width="300px" controls controlsList="nodownload noremoteplayback nofullscreen">
+               <source src="teacher.mp4" type="video/mp4">
+               Your browser does not support the video tag.
+            </video>
          </div>
- 
+      </div>
    </div>
    <!-- contact section end -->
+
    <!-- footer section start -->
-   <div class="footer_section layout_padding">
+   <div class="footer_section footer_main">
       <div class="container">
+         <!-- copyright section start -->
          <div class="copyright_section">
             <h1 class="copyright_text">
                Copyright 2024 All Right Reserved By Team CalcPal
             </h1>
          </div>
-         <!-- copyright section end -->
       </div>
    </div>
 
@@ -301,6 +295,19 @@
    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
    <script src="../../assets/js/vendor/popper.min.js"></script>
    <script src="../../dist/js/bootstrap.min.js"></script>
+   <script>
+      function playVideo() {
+         var video = document.getElementById("classroomVideo");
+         var button = document.getElementById("playButton");
+
+         // Show the video element and hide the play button
+         video.style.display = "block";
+         button.style.display = "none";
+
+         // Play the video
+         video.play();
+      }
+   </script>
 </body>
 
 </html>
